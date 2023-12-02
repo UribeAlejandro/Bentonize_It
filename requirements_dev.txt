@@ -6,3 +6,5 @@ black[jupyter]
 isort
 docformatter
 pytest
+bentoml
+bentoctl

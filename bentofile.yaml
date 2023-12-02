@@ -1,0 +1,12 @@
+service: "src/serving/service.py:svc"
+labels:
+    owner: uribealejandro
+    stage: dev
+include:
+  - "src/serving/service.py"
+python:
+  packages:
+    - pydantic
+    - scikit-learn
+models:
+  - iris_clf:latest
